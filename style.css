@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+   background-image:linear-gradient(to right,rgba(249, 42, 42, 0.78),rgb(75, 249, 110));
+   width:100%;
+}
+.head-text{
+    text-align: center;
+    background-color: rgb(0, 140, 255);
+    padding:4px;
+    color:yellow;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    background-image:url('banner1.jpg');
+    width: 1480px;
+}
+.container2 h3{
+    text-shadow: yellow 0 0 3px, green 4px 4px 10px;
+}
+.card
+{
+    background: rgba(0, 255, 42, 0.329);
+    width:400px ;
+    height:648px ;
+    margin:100px ;
+    border:2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+}
+.card :hover{
+    background-color: rgba(0, 255, 255, 0.719);
+}
+.card h3:hover{
+    letter-spacing:20px;
+    color:rgb(0, 255, 136);
+}
+.card p{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.card  h3{
+    color:red;
+}
+.card-image-top
+{
+    background-color:aqua ;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.card-text{
+    text-align: center;
+}
+.text{
+    padding:2px;
+}
+.car-1{
+    background-image: url('CR1.jpg');
+}
+.car-2{
+    background-image: url('CR2.jpg');
+}
+.car-3{
+    background-image: url('CR3.jpg');
+}
+.container2{
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.card2
+{
+    background: white;
+    width:80%;
+    height:80%;
+    margin-left:150px;
+    border:2px solid green;
+    align-items: center;
+}
+.card2 video
+{
+    width: 100%;
+}
+.car-4{
+    background-image: url('sk.png');
+}
+.container4
+{
+    background-image: url('cour.jpg');
+}
+.section4{
+    background-image: url('banner.jpg');
+}
+
+form{
+    color:red;
+}
+#loginpage{
+    background-color: rgb(90, 245, 245);
+    padding:80px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.inputs{
+    border: 2px solid rgb(0, 255, 98);
+    padding:20px;
+    border-radius: 30px;
+}
+.conatiner3 h2
+{
+    color:red;
+    margin-left: 100px;
+}
+.headprimary img{
+    border:4px solid red;
+    border-radius: 20px;
+}
+.containermap{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containermap iframe{
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.containermap h3{
+    color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 100%;
+} 
+

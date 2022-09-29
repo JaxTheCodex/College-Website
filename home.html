@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>LIT-LAKSHYA INSTITUTE OF TECHNOLOGY</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="full-width-header bg-primary">
+      <div class="rs tool-bar">
+        <div class="container">
+          <div class="row">
+            <div class="flex-box">
+              <div class="mr-auto"></div>
+              <marquee behavior="scroll" direction="right to left">
+                <h4 style="color:rgb(13, 245, 44);text-shadow: rgb(7, 7, 7) 0 0 3px, rgb(49, 202, 49) 4px 4px 10px;"><b
+                    style="color:red;text-shadow: rgb(3, 3, 3) 0 0 3px, rgb(179, 21, 21) 4px 4px 10px;">LIT</b> Lakshya
+                  Institute of technology-The center of excellence</h4>
+              </marquee>
+            </div>
+            <button style="background-color:rgb(245, 71, 71);border-radius: 4px;margin:3px;padding-left:4px;padding-right: 4px;float: right;" type="button" onclick="displayDate()">Show Date</button>
+            <p id="showDate"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="clg-logo">
+      <div class="institute-logo">
+        <img src="logo.png" alt="logo" class="logo">
+        <a style="float:right;margin-top: 30px;margin-right: 20px;"
+          href="https://www.youtube.com/channel/UCCNWGknNtcmV2Nw-thvOyRQ?view_as=subscriber"><img class="ml-4"
+            src="yt.png" alt="youtube" height="30" width="30"></a>
+        <a style="float:right;margin-top: 30px;margin-right: 20px;"
+          href="https://www.facebook.com/LakshyaInstituteTechnology"><img class="ml-4" src="fb.png" alt="facebook"
+            height="30" width="30"></a>
+        <a style="float:right;margin-top: 30px;margin-right: 20px;" href="https://twitter.com/explore"><img class="ml-4"
+            src="tw.png" alt="twitter" height="30" width="30"></a>
+        <div class="mr-auto" style="float:right; padding-top: 20px; padding-right:30px;">
+        <button type="button" name="Login-btn" id="btn-0" class="btn btn-primary" btn-lg btn-block><a class="text-light" href="#loginhere">Login</a>
+        </button>
+          <button type="button" name="Call-button" id="btn-1" class=" btn btn-primary " btn-lg btn-block><a
+              class="tel:0674-2544690">Call Us</a></button>
+          <button type="button" name="mail-button" id="btn-2" class="btn btn-danger" btn-lg btn-block>Mail Us</button>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--navbar section strats here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">HOME</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="about.html">ABOUT-US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="academics.html">ACADEMICS</a>
+            </li>
+            <div class="dropdown">
+              <button class="btn btn-danger dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                ADMISSION
+              </button>
+              <div class="dropdown-menu" aria-labelledby="triggerId">
+                <a class="dropdown-item" href="#bottom">Registration Form</a>
+                <a class="dropdown-item" href="#">Fee structure</a>
+
+              </div>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="placement.html">PLACEMENTS</a>
+            </li>
+            <div class="dropdown">
+              <button class="btn btn-danger dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                COURSES
+              </button>
+              <div class="dropdown-menu" aria-labelledby="triggerId">
+                <a class="dropdown-item" href="bca.html">BCA</a>
+                <a class="dropdown-item" href="itm.html">ITM</a>
+                <a class="dropdown-item" href="cs.html">CS</a>
+              </div>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="result.html">RESULTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="vlogs.html">VLOGS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--navbar ends here-->
+    <div id="carouselId" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselId" data-slide-to="1"></li>
+        <li data-target="#carouselId" data-slide-to="2"></li>
+        <li data-target="#carouselId" data-slide-to="3"></li>
+        <li data-target="#carouselId" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <center>
+          <div class="carousel-item active">
+            <img src="banner2.jpg" alt="First slide" style="height:600px;width:1200px;">
+          </div>
+          <div class="carousel-item">
+            <img src="banner3.jpg" alt="First slide" style="height:600px;width:1200px;">
+          </div>
+          <div class="carousel-item">
+            <img src="crsl1.jpg" alt="First slide" style="height:600px;width:1200px;">
+          </div>
+          <div class="carousel-item">
+            <img src="crsl2.jpg" alt="Second slide" style="height:600px;width:1200px;">
+          </div>
+          <div class="carousel-item">
+            <img src="crsl3.jpg" alt="Third slide" style="height:600px;width:1200px;">
+          </div>
+        </center>
+      </div>
+      <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    </section>
+    <hr>
+    <!--Courses list-->
+    <h2 class="head-text">OUR COURSES</h2>
+    <p class="head-para" style="text-align: center;">LIT provides 3 UG courses to all 12th passed students with maths
+    </p>
+    <section class="container2">
+      <div class="card">
+        <h3 class="card-text bg-dark">BCA</h3>
+        <p class="text">BCA is amongst the most demanding bachelor courses for a long time. The course is able to give
+          you the perfect
+          skill to explore your bright future in the field of computer application. Bachelor in Computer Application or
+          commonly known
+          as BCA. For an aspirant who has an interest in computer application and wants to make a career in this field.
+        </p>
+        <button type="button" class="btn btn-danger" style="opacity: 0.8;">Show more</button>
+      </div>
+      <div class="card">
+        <h3 class="card-text bg-dark">Bsc.ITM</h3>
+        <p class="text">In India, the B.Sc. in ITM, or Bachelor of Science in Information Technology Management, is one
+          of the most popular
+          career paths for students interested in technical fields.Bachelor in Computer Application or commonly known
+          as BCA. For an aspirant who has an interest in computer application and wants to make a career in this field
+          can get a good career.
+        </p>
+        <button type="button" class="btn btn-danger" style="opacity: 0.8;">Show more</button>
+      </div>
+      <div class="card">
+        <h3 class="card-text bg-dark">Bsc.CS</h3>
+        <p class="text">One of the most popular IT programs is the Bachelor of Science in Computer Science (B.Sc. CS).
+          This field can propel
+          you to new heights in your career.Bachelor in Computer Application or commonly known
+          as BCA. For an aspirant who has an interest in computer application and wants to make a career in this field
+          can get a good career.
+        </p>
+        <button type="button" class="btn btn-danger" style="opacity: 0.8;">Show more</button>
+      </div>
+    </section>
+    <hr>
+    <h2 class="head-text">ABOUT US</h2>
+    <p class="text-para" style="text-align: center;">Here is a short description about our college.</p>
+    <section class="section-3">
+      <div class="full-width-header bg-primary">
+        <div class="rs tool-bar">
+          <div class="container">
+            <div class="row">
+              <div class="flex-box">
+                <center>
+                  <h4 style="color:rgb(47, 255, 109);text-align: center;"><b style="color:greenyellow"><i>LIT</i></b>
+                   (Lakshya Institute of technology The center of excellence)</h4>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!--Message from the chairman-->
+      <div class="container3">
+        <div class="card2">
+          <video autoplay loop muted plays-inline>
+            <source src="video1.mp4" type="video/mp4">
+          </video>
+          <p class="text-primary-80">
+            <b>CHAIRMAN'S MOTIVE:</b>The mission to start the Lakhsya Institute of Technology (LIT) the visionary
+            endeavor of Gayatri Educational
+            and Charitable Trust, headed by Honorable Mr. Susant K. Rout, who is the chairman of Lakshya Institute of
+            Technology. The motive behind our organisation is to highlight Odisha's up-and-coming demands as major
+            players in the IT revolution and re-emergence. The 3-year-old college is trying to give the a practical come
+            real problem solving solution in digital era.
+            <br>
+            <br>
+            <b>MISSION:</b>Our mission is to establish itself as a center of excellence in the sectors of university
+            technical
+            education and job generation.
+            The technical information provided in LIT makes our students more resourceful, allowing them to be of
+            service in industry, academia, bureaucracy, and the government, among other places.
+            <br>
+            <br>
+            <b>VISION:</b>LIT is among the most modern educational IT service providers of eastern India, that
+            specializes
+            in addressing interface issues with the vision to promote itself as a renowned institution of higher
+            learning for information technology and technical education that is adaptable to the changing needs. The
+            only organisation providing students with the critical information they need to be well-equipped and
+            efficient in a fast-paced global IT market.
+            <br>
+            LIT is a human resource development institution that was founded with the goal of disseminating knowledge
+            that would be valuable throughout our lives. During a time when many traditional academic institutions are
+            losing their relevance, our information technology academics have emerged as the primary focus of students
+            in today's society. The technical information provided in LIT makes our students more resourceful, allowing
+            them to be of service in industry, academia, bureaucracy, and the government, among other places. With a
+            greater chance of landing a job, the individual is branded as a more valuable resource in the workplace. LIT
+            has carved out a position in the academic world, giving knowledge service to the people of Bhubaneswar, the
+            state capital of Odisha, and the surrounding areas.
+            <br>
+            <b>OUR CORE STRENGTHS:</b>
+
+
+            <li>More than 2,00,000 lakhs students trained in short term course from all science , technical and
+              engineering colleges across odisha and other states.</li>
+
+            <li>More than 90% students placed in MNC's and IT/ITes Organization</li>
+
+            <li>More than 30 highly qualified and experienced teaching/training staffs.</li>
+
+            <li>More than 3 ,faculties are authors of several books published by national publisher like
+              TMH,PHI,Vikash,etc</li>
+
+            <li>More than 20 non-teaching trained professional and technicians</li>
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <h2 class="head-text">OUR STAFF</h2>
+    <p class="text-para" style="text-align: center;">Here are some photoes of our staffs.</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <center> <img class="d-block" src="staff1.jpg" alt="First slide" style="height:600px;width:1200px;"></center>
+        </div>
+        <div class="carousel-item">
+          <center> <img class="d-block" src="staff2.jpg" alt="Second slide" style="height:600px;width:1200px;"></center>
+        </div>
+        <div class="carousel-item">
+          <center> <img class="d-block" src="staff3.jpg" alt="Second slide" style="height:600px;width:1200px;"></center>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <hr>
+    <!--Addmission form page starts here-->
+    <section class="section-4" id="bottom" style="background-image:url('banner.jpg');">
+      <h4 class="text-center bg-primary" style="color: yellow;">REGISTRATION    FORM 2022</h4>
+      <form action="from-input">
+        <div class="form-group ml-2 w-50">
+          <label for=""></label>
+          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted"><strong>Student Name</strong></small>
+        </div>
+        <h6 class="ml-2">Student Stream</h6>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+            BCA
+          </label><br>
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+            CS
+          </label><br>
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+            ITM
+          </label>
+        </div>
+        <br>
+        <br>
+        <h6 class="ml-2">Date of birth</h6>
+        <input class="ml-2" type="date">
+        <div class="form-group w-50 ml-2">
+          <label for=""></label>
+          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <small id="helpId" class="text-muted"><strong>Phone Number</strong></small>
+        </div>
+        <div class="form-group w-50 ml-2">
+          <label for=""></label>
+          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <small id="helpId" class="text-muted"><strong>Father's Name</strong></small>
+        </div>
+        <div class="form-group w-50 ml-2">
+          <label for=""></label>
+          <input type="text" name="" id="" class="form-control" placeholder="" aria-describedby="helpId">
+          <small id="helpId" class="text-muted"><strong>Mother's Name</strong></small>
+        </div>
+        <div class="form-group w-50 ml-2">
+          <label for=""></label>
+          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="">
+          <small id="emailHelpId" class="form-text text-muted"><strong>@Email</strong></small>
+        </div>
+        <div class="form-group ml-2 w-50">
+          <label for="">Write a message to us:</label>
+          <textarea class="form-control" name="" id="" rows="3"></textarea>
+        </div>
+        <button type="reset" class="btn btn-danger ml-2">Reset</button>
+        <button type="submit" class="btn btn-primary ml-2" >Submit</button>
+      </form>
+      <br>
+      <br>
+    </section>
+  </main>
+  <br><br>
+  <h2 class="head-text" id="loginhere">Login Page</h2>
+  <br><br><br><br>
+  <section id="loginpage">
+    <div class="container3">
+      <div class="conhead">
+        <center>
+          <marquee behavior="scroll" direction="left to right">
+            <h2><b>Enter your current username and password</b></h2>
+          </marquee>
+        </center>
+      </div>
+      <div class="inputs">
+        <center>
+          <caption>UserName:</caption>
+          <input type="text">
+          <br><br>
+          <caption>Password:</caption>
+          <input type="password">
+          <br><br>
+          <button type="reset" class="btn btn-primary" onclick="su()">Reset</button>
+          <button type="submit" class="btn btn-primary" onclick="sub()">Submit</button>
+        </center>
+      </div>
+    </div>
+  </section>
+  <br><br><br><br><br><br><br><br>
+  <h2 class="head-text">Embeded location map of lit bhubaneshwar:</h2>
+  <div class="containermap">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.095810528492!2d85.82742211475029!3d20.29630098639963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d064ac0461%3A0xb99108e9f97fbfe2!2sLakshya%20Institute%20of%20Technology%20(LIT)!5e0!3m2!1sen!2sin!4v1647559108654!5m2!1sen!2sin"
+      width="800" height="400" style="border:0;" allowfullscreen="" loading="fast"></iframe>
+  </div>
+  <!--copyright disclaimer-->
+  <footer>
+    <div class="footer-text">
+      <h4 class="footer-head text-center bg-danger">Copyright disclaimer page:</h4>
+      <p class="text-center" style="color:rgb(228, 37, 37)">&copy:This website is developed by jpdeveloper and copying the
+        desingn and
+        content of this page is not
+        allowed to any one.Any kind of information theaft and hacking will be subjected to legal action.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

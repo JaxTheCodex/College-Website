@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lit home page</title>
+    <style>
+        body {
+           background-color: rgba(0, 255, 255, 0.626);
+        }
+        .main{
+            border: 2px solid red;
+            background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.813),rgba(0, 0, 0, 0.511));
+            height:700px;
+        }
+        .container1{
+            border: 2px solid red;
+            width:44%;
+        }
+        .container2{
+            border:2px solid red;
+            width:56%;
+            transform: translate(663px,-98px);
+            height:95px;
+        }
+        .container2 h3,h5{
+            padding-left: 100px;
+        }
+        .nav-bar{
+            display:flex;
+            border: 2px solid red;
+            height: 150px;
+        }
+        .nav-bar ul{
+            display:flex;
+            padding-bottom: 150px;
+        }
+        .nav-bar ul li{
+            padding: 40px;
+            list-style: none;
+            font-size: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: auto;
+        }
+        .login{
+            width: 50%;
+            height: 200px;
+            height: 30px;
+        }
+        .login fieldset {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container1">
+            <img src="logo.png" alt="logo">
+        </div>
+       <div class="container2">
+        <h3>LIT-Lakshya Institute Of Technology</h3>
+        <h5>Address:Acharya Vihar,4-26,Near Water Tank <br> Contact:9861093732</h5>
+       </div>
+       <div class="nav-bar">
+           <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Contact</li>
+           </ul>
+    </div>
+    <div class="login">
+        <fieldset>
+            <legend>Login Here:</legend>
+            User_Name:<input type="text">
+            <br>
+            <br>
+            Password:<input type="password">
+            <br>
+            <br>
+            Email:<input type="email">
+        </fieldset>
+    </div>
+   <div class="video">
+    <video src="video1.mp4" controls>
+        
+    </video>
+   </div>
+    </div>
+</body>
+</html>
